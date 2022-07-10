@@ -10,18 +10,18 @@
     
 <h3>Installation</h3>
     
-       1- clone repository
+1- clone repository
         ```
         git clone https://github.com/MohamedEmadAbdelsatar/Robusta-Task.git
         cd fleet-management
         ```
-        2- install dependencies
+2- install dependencies
         ```
         composer update
         copy .env.example and rename it to .env
         ```
         
-        3- add project directory to Homestead.yaml folders, chenge mapping to url, rename db to fleet-management and enable mysql in features
+3- add project directory to Homestead.yaml folders, chenge mapping to url, rename db to fleet-management and enable mysql in features
         ```
         folders:
             - map: C:\Bitnami\wampstack-8.0.20-0\apache2\htdocs\fleet-management
