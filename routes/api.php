@@ -18,7 +18,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::apiResource('trips', 'App\Http\Controllers\TripsController');
+Route::apiResource('trips', 'App\Http\Controllers\TripsController')->except(['update', 'destroy']);
 
-Route::post('book', [App\Http\Controllers\ReservationsController::class, 'book']);
-Route::get('availability', [App\Http\Controllers\ReservationsController::class, 'getAvailableSeats']);
+Route::post('book', [App\Http\Controllers\ReservationsController::class, 'book'])->name('reservation.book');
+Route::get('availability', [App\Http\Controllers\ReservationsController::class, 'getAvailableSeats'])->name('reservation.getAvailable');
