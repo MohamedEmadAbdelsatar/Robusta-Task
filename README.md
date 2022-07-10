@@ -71,3 +71,4 @@ php artisan db:seed
     
 <h3>DB Design</h3>
 <img src="https://imgur.com/gallery/oecBkBl">
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/oecBkBl"  ><a href="//imgur.com/a/oecBkBl">db design</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
