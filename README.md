@@ -70,4 +70,4 @@ php artisan db:seed
 <p> I used this tutorial to run app in homestead environment <a href="https://mirror-medium.com/?m=https%3A%2F%2Fmedium.com%2Fm%2Fglobal-identity%3FredirectUrl%3Dhttps%253A%252F%252Fblog.devgenius.io%252Finstall-laravel-8-x-on-win-10-with-homestead-virtualbox-ec996f9a2cb6">Here</a>
     
 <h3>DB Design</h3>
-[EERD](EER.png)
+![EER](https://imgur.com/gallery/oecBkBl)
