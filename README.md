@@ -39,3 +39,32 @@ databases:
 features:
       - mysql: true
 ```
+5- Download Homestead vagrant box
+```
+vagrant box add laravel/homestead
+```
+
+6- Edit hosts file to match your local domain
+open C:\Windows\System32\drivers\etc\hosts
+and add 
+```
+#Homestead
+ip from Homestead.yaml   fleet-management.test
+```
+
+7- run vagrant
+```
+vagrant up
+```
+
+8- use Putty to connect to homestead via ssh
+
+9- after connecting to homestead in Homestead terminal
+```
+cd code
+php artisan migrate
+php artisan db:seed
+```
+
+<p> Here we go the app is ready </P>
+<p> I used this tutorial to run app in homestead environment <a href="https://mirror-medium.com/?m=https%3A%2F%2Fmedium.com%2Fm%2Fglobal-identity%3FredirectUrl%3Dhttps%253A%252F%252Fblog.devgenius.io%252Finstall-laravel-8-x-on-win-10-with-homestead-virtualbox-ec996f9a2cb6">Here</a>
