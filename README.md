@@ -71,3 +71,4 @@ php artisan db:seed
     
 <h3>DB Design</h3>
 <img src="https://i.imgur.com/iR4d42I_d.webp?maxwidth=760&fidelity=grand">
+<p>trips table is related to it's starting station , end station, cross over stations and has 12 seats, each seat is related to it's reservations and each reservation is related to one seat, from, to stations and it's trip</p>
