@@ -13,7 +13,7 @@
 1- clone repository
 ```
 git clone https://github.com/MohamedEmadAbdelsatar/Robusta-Task.git
-cd fleet-management
+cd Robusta-Task
 ```
 2- install dependencies
 ```
@@ -25,7 +25,7 @@ composer update
 4- add project directory to Homestead.yaml folders, chenge mapping to url, rename db to fleet-management and enable mysql in features
 ```
 folders:
-       - map: C:\Bitnami\wampstack-8.0.20-0\apache2\htdocs\fleet-management
+       - map: C:\Bitnami\wampstack-8.0.20-0\apache2\htdocs\Robusta-Task
          to: /home/vagrant/code
          type: "nfs"
         
