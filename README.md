@@ -11,10 +11,10 @@
 <h3>Installation</h3>
     
 1- clone repository
-        ```
-        git clone https://github.com/MohamedEmadAbdelsatar/Robusta-Task.git
-        cd fleet-management
-        ```
+```
+git clone https://github.com/MohamedEmadAbdelsatar/Robusta-Task.git
+cd fleet-management
+```
 2- install dependencies
         ```
         composer update
